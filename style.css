@@ -1,0 +1,37 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-image: linear-gradient(#C5D2F8, white);
+}
+
+h1 {
+  font-style: italic;
+  color: #3251FF;
+  text-align: center;
+  text-shadow: 2.6px 3px #929292;
+}
+
+h2 {
+  margin-top: 2em;
+}
+
+.question {
+  display: flex;
+  margin-top: 2em;
+}
+
+.answer-choice img {
+  height: 10em;
+  image-align: center;
+  max-width: auto;
+  max-height: auto;
+  img-align: center;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  border: 3px solid black;
+  display: block;
+  margin-left: 1.4em;
+  margin-right: 1.4em;
+}
